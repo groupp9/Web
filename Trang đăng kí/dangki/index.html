@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="../img/img2.png" type="x-icon"> <!--Thẻ này dùng để chèn ảnh vào thanh tiêu đề như là một icon bên cạnh tiêu đề "Đăng Ký"-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <!--Tạo thẻ div để chứa cả khung đăng kí-->
+    <div class="signup">
+      <div class="signup__container">
+        <h1>ĐĂNG KÝ</h1>
+        <form action="">
+          <i>Họ và tên</i>
+          <input type="text" class="name" />
+          <div class="gender">
+            <i>Giới tính</i>
+              <div class="gender_">
+                <input type="radio" name="gioitinh" value="Nam"/>Nam
+                <input type="radio" name="gioitinh" value="Nữ"/>Nữ
+              </div>
+          </div>
+          <i>Ngày sinh</i>
+          <input type="date" class="birth" />
+          <i>MSSV</i>
+          <input type="text" class="input-signup-username" />
+          <i>Số điện thoại</i>
+          <input type="number" class="phone" />
+          <i>Email</i>
+          <input type="text" class="email" />
+          <i>Mật khẩu</i>
+          <input type="password" class="input-signup-password" />
+          <i>Xác nhận mật khẩu</i>
+          <input type="password" class="input-signup-password_">
+          <button type="submit" class="signup__signInButton">Đăng Ký</button> <!--Nút "Đăng Ký"-->
+        </form>
+        <a href="../index.html" class="signup__registerButton">Quay lại</a> <!--Đường dẫn đưa về trang đăng nhập nếu nhấn vào nút "Quay lại"-->
+      </div>
+    </div>
+  </body>
+  <script src="../js/signup.js"></script> <!--Thiết lập cách hoạt động của trang đăng kí -->
+</html>

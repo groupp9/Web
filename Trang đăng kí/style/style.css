@@ -1,0 +1,179 @@
+/*Thêm phông chữ mới là Quicksand bằng link phông chữ Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  /*Định dạng trang đăng kí và đăng nhập*/
+  min-height: 100vh;
+  font-family: Quicksand;
+  background: url('../img/img.jpg'); /*Chèn ảnh cho toàn trang đăng kí và đăng nhập */
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login__container {
+  width: 100%;
+  margin: 50px;
+  max-width: 400px;
+  max-height: 500px;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.544); /*Định dạng màu của khung đăng nhập và đăng kí
+  để được màu sắc trong suốt*/
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login__container h1 { /*Định dạng dòng chữ trong thẻ h1 */
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(18, 236, 236);
+}
+.login__container form {
+  display: flex;
+  flex-direction: column;
+}
+.login__container form label {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.login__container form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.login__container form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(18, 236, 236);
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.login i { /*Định dạng dòng chữ trong thẻ i */
+  color: rgb(18, 236, 236);
+}
+.login__container form button:hover {
+  background: rgba(18, 236, 236, 0.87); /*Định dạng màu sắc của nút "Đăng Nhập" khi ta rê chuột vào*/ 
+}
+.login__container form a {
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.login .login__container a {
+  color:rgb(18, 236, 236);
+}
+.login__container form a:hover {
+  color: #555;
+}
+.login__registerButton {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: block;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.signup__container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.544);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.signup__container h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(18, 236, 236);
+
+}
+.signup i {
+  color: rgb(18, 236, 236);
+}
+.signup .signup__container a {
+  color:rgb(18, 236, 236);
+}
+.signup__container form {
+  display: flex;
+  flex-direction: column;
+}
+.signup__container form label {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.signup__container form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.signup__container form button {
+  padding: 10px;
+  border:none;
+  border-radius: 5px;
+  background: rgb(18, 236, 236);
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.signup__container form button:hover { 
+  background: rgba(18, 236, 236, 0.87);
+}
+.signup__container form a {
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+}
+.signup__container form a:hover { /* Định dạng màu sắc của nút "Đăng Ký" khi rê chuột vào */ 
+  color: rgba(18, 236, 236, 0.87);
+}
+.signup__registerButton {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: block;
+}
+.signup .signup__container .gender {
+  color:rgb(18, 236, 236);
+}
+.signup .signup__container .gender .gender_ {
+  display: grid;
+  margin-top: 15px;
+  grid-template-columns: 0.1fr 0fr;
+}
+

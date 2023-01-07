@@ -1,0 +1,28 @@
+body {
+    background: url('../img/img3.jpg'); /*Chèn ảnh nền cho toàn trang web */
+}
+/* Phân chia 3 logo như 3 cột trên một hàng */
+.logo {
+    position: relative;
+    max-width: 1000px;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns:150px 130px 100px;
+}
+/* Định dạng màu sắc và vị trí của khung "Chào mừng đến với Câu lạc bộ Tin học" */
+.welcome {
+    position: relative;
+    margin: 200px;
+    padding: 50px;
+    max-width: 2000px;
+    background: rgba(221, 209, 209, 0.454);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Định dạng dòng chữ "Chào mừng đến với Câu lạc bộ Tin học" */
+.welcome_ h1{
+    margin-bottom: 20px;
+    font-size: 4rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.971);
+}
